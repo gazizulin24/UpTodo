@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		AB42DDD92B1E70F200F9ACAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42DDD82B1E70F200F9ACAA /* AppDelegate.swift */; };
 		AB42DDDB2B1E70F200F9ACAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42DDDA2B1E70F200F9ACAA /* SceneDelegate.swift */; };
-		AB42DDDD2B1E70F200F9ACAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42DDDC2B1E70F200F9ACAA /* ViewController.swift */; };
-		AB42DDE02B1E70F200F9ACAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB42DDDE2B1E70F200F9ACAA /* Main.storyboard */; };
 		AB42DDE22B1E70F300F9ACAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB42DDE12B1E70F300F9ACAA /* Assets.xcassets */; };
 		AB42DDE52B1E70F300F9ACAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB42DDE32B1E70F300F9ACAA /* LaunchScreen.storyboard */; };
+		AB4544292B1F176600E2CB6A /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4544282B1F176600E2CB6A /* CustomTabBarController.swift */; };
+		AB45442C2B1F18D200E2CB6A /* PlusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45442B2B1F18D200E2CB6A /* PlusButton.swift */; };
+		AB45442E2B1F1A4C00E2CB6A /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45442D2B1F1A4C00E2CB6A /* CustomTabBar.swift */; };
+		AB4544342B1F5AD500E2CB6A /* OnboardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4544332B1F5AD500E2CB6A /* OnboardingPageViewController.swift */; };
+		AB4544382B1F5B3700E2CB6A /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4544372B1F5B3700E2CB6A /* OnboardingViewController.swift */; };
+		AB45443C2B1F5CEF00E2CB6A /* OnboardingPageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45443B2B1F5CEF00E2CB6A /* OnboardingPageInfo.swift */; };
+		AB4544452B1F788100E2CB6A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4544442B1F788100E2CB6A /* WelcomeViewController.swift */; };
+		AB52761A2B208AE80021855A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5276192B208AE80021855A /* LoginViewController.swift */; };
+		AB7286512B20BD0C0052C8DF /* LoginWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7286502B20BD0C0052C8DF /* LoginWebViewController.swift */; };
+		AB7286532B20C1790052C8DF /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7286522B20C1790052C8DF /* RegistrationViewController.swift */; };
+		D4C75F3D7BAB546F2737895B /* Pods_UpTodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8DB6E4DEC10B0CF6267E43 /* Pods_UpTodo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EB37B72D02AB909CB9B19B3 /* Pods-UpTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpTodo.debug.xcconfig"; path = "Target Support Files/Pods-UpTodo/Pods-UpTodo.debug.xcconfig"; sourceTree = "<group>"; };
+		6F8DB6E4DEC10B0CF6267E43 /* Pods_UpTodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpTodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7252E8EE618F7ED90A0CEAC7 /* Pods-UpTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpTodo.release.xcconfig"; path = "Target Support Files/Pods-UpTodo/Pods-UpTodo.release.xcconfig"; sourceTree = "<group>"; };
 		AB42DDD52B1E70F200F9ACAA /* UpTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB42DDD82B1E70F200F9ACAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB42DDDA2B1E70F200F9ACAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB42DDDC2B1E70F200F9ACAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AB42DDDF2B1E70F200F9ACAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB42DDE12B1E70F300F9ACAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB42DDE42B1E70F300F9ACAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB42DDE62B1E70F300F9ACAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB4544282B1F176600E2CB6A /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		AB45442B2B1F18D200E2CB6A /* PlusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusButton.swift; sourceTree = "<group>"; };
+		AB45442D2B1F1A4C00E2CB6A /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		AB4544332B1F5AD500E2CB6A /* OnboardingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageViewController.swift; sourceTree = "<group>"; };
+		AB4544372B1F5B3700E2CB6A /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		AB45443B2B1F5CEF00E2CB6A /* OnboardingPageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageInfo.swift; sourceTree = "<group>"; };
+		AB4544442B1F788100E2CB6A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		AB5276192B208AE80021855A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AB7286502B20BD0C0052C8DF /* LoginWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWebViewController.swift; sourceTree = "<group>"; };
+		AB7286522B20C1790052C8DF /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4C75F3D7BAB546F2737895B /* Pods_UpTodo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				AB42DDD72B1E70F200F9ACAA /* UpTodo */,
 				AB42DDD62B1E70F200F9ACAA /* Products */,
+				DCEB9B3A755B56801C7294D7 /* Pods */,
+				D412D5AD9A145B0BC53395C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,136 @@
 		AB42DDD72B1E70F200F9ACAA /* UpTodo */ = {
 			isa = PBXGroup;
 			children = (
+				AB4544262B1F172700E2CB6A /* UI */,
+				AB4544252B1F15FB00E2CB6A /* Resources */,
+				AB4544242B1F15CE00E2CB6A /* Application */,
+			);
+			path = UpTodo;
+			sourceTree = "<group>";
+		};
+		AB4544242B1F15CE00E2CB6A /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				AB42DDD82B1E70F200F9ACAA /* AppDelegate.swift */,
 				AB42DDDA2B1E70F200F9ACAA /* SceneDelegate.swift */,
-				AB42DDDC2B1E70F200F9ACAA /* ViewController.swift */,
-				AB42DDDE2B1E70F200F9ACAA /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AB4544252B1F15FB00E2CB6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				AB42DDE12B1E70F300F9ACAA /* Assets.xcassets */,
 				AB42DDE32B1E70F300F9ACAA /* LaunchScreen.storyboard */,
 				AB42DDE62B1E70F300F9ACAA /* Info.plist */,
 			);
-			path = UpTodo;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AB4544262B1F172700E2CB6A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AB4544412B1F77B600E2CB6A /* Authentication */,
+				AB4544402B1F776D00E2CB6A /* Profile */,
+				AB45443F2B1F776600E2CB6A /* Focuse */,
+				AB45443E2B1F775D00E2CB6A /* Calendar */,
+				AB45443D2B1F774900E2CB6A /* Index */,
+				AB4544322B1F5AAE00E2CB6A /* Onboarding */,
+				AB4544272B1F173400E2CB6A /* TabBar */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AB4544272B1F173400E2CB6A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AB4544282B1F176600E2CB6A /* CustomTabBarController.swift */,
+				AB45442B2B1F18D200E2CB6A /* PlusButton.swift */,
+				AB45442D2B1F1A4C00E2CB6A /* CustomTabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		AB4544322B1F5AAE00E2CB6A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				AB4544332B1F5AD500E2CB6A /* OnboardingPageViewController.swift */,
+				AB4544372B1F5B3700E2CB6A /* OnboardingViewController.swift */,
+				AB45443B2B1F5CEF00E2CB6A /* OnboardingPageInfo.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		AB45443D2B1F774900E2CB6A /* Index */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		AB45443E2B1F775D00E2CB6A /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		AB45443F2B1F776600E2CB6A /* Focuse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Focuse;
+			sourceTree = "<group>";
+		};
+		AB4544402B1F776D00E2CB6A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AB4544412B1F77B600E2CB6A /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				AB4544432B1F77D100E2CB6A /* Register */,
+				AB4544422B1F77CA00E2CB6A /* Login */,
+				AB4544442B1F788100E2CB6A /* WelcomeViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		AB4544422B1F77CA00E2CB6A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AB5276192B208AE80021855A /* LoginViewController.swift */,
+				AB7286502B20BD0C0052C8DF /* LoginWebViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AB4544432B1F77D100E2CB6A /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				AB7286522B20C1790052C8DF /* RegistrationViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		D412D5AD9A145B0BC53395C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F8DB6E4DEC10B0CF6267E43 /* Pods_UpTodo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCEB9B3A755B56801C7294D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EB37B72D02AB909CB9B19B3 /* Pods-UpTodo.debug.xcconfig */,
+				7252E8EE618F7ED90A0CEAC7 /* Pods-UpTodo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB42DDE92B1E70F300F9ACAA /* Build configuration list for PBXNativeTarget "UpTodo" */;
 			buildPhases = (
+				EE383DFDDC481F1A84CAB320 /* [CP] Check Pods Manifest.lock */,
 				AB42DDD12B1E70F200F9ACAA /* Sources */,
 				AB42DDD22B1E70F200F9ACAA /* Frameworks */,
 				AB42DDD32B1E70F200F9ACAA /* Resources */,
+				EC1C1929E54EC73FE7FDCB5B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +273,76 @@
 			files = (
 				AB42DDE52B1E70F300F9ACAA /* LaunchScreen.storyboard in Resources */,
 				AB42DDE22B1E70F300F9ACAA /* Assets.xcassets in Resources */,
-				AB42DDE02B1E70F200F9ACAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC1C1929E54EC73FE7FDCB5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UpTodo/Pods-UpTodo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UpTodo/Pods-UpTodo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UpTodo/Pods-UpTodo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE383DFDDC481F1A84CAB320 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UpTodo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB42DDD12B1E70F200F9ACAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB42DDDD2B1E70F200F9ACAA /* ViewController.swift in Sources */,
+				AB4544452B1F788100E2CB6A /* WelcomeViewController.swift in Sources */,
 				AB42DDD92B1E70F200F9ACAA /* AppDelegate.swift in Sources */,
+				AB45442E2B1F1A4C00E2CB6A /* CustomTabBar.swift in Sources */,
 				AB42DDDB2B1E70F200F9ACAA /* SceneDelegate.swift in Sources */,
+				AB4544292B1F176600E2CB6A /* CustomTabBarController.swift in Sources */,
+				AB4544382B1F5B3700E2CB6A /* OnboardingViewController.swift in Sources */,
+				AB7286532B20C1790052C8DF /* RegistrationViewController.swift in Sources */,
+				AB4544342B1F5AD500E2CB6A /* OnboardingPageViewController.swift in Sources */,
+				AB45442C2B1F18D200E2CB6A /* PlusButton.swift in Sources */,
+				AB7286512B20BD0C0052C8DF /* LoginWebViewController.swift in Sources */,
+				AB52761A2B208AE80021855A /* LoginViewController.swift in Sources */,
+				AB45443C2B1F5CEF00E2CB6A /* OnboardingPageInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AB42DDDE2B1E70F200F9ACAA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB42DDDF2B1E70F200F9ACAA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AB42DDE32B1E70F300F9ACAA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,17 +475,18 @@
 		};
 		AB42DDEA2B1E70F300F9ACAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB37B72D02AB909CB9B19B3 /* Pods-UpTodo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 36UP5GA7L9;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UpTodo/Info.plist;
+				INFOPLIST_FILE = UpTodo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,17 +504,18 @@
 		};
 		AB42DDEB2B1E70F300F9ACAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7252E8EE618F7ED90A0CEAC7 /* Pods-UpTodo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 36UP5GA7L9;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UpTodo/Info.plist;
+				INFOPLIST_FILE = UpTodo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
